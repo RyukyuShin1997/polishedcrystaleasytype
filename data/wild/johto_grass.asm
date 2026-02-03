@@ -1349,7 +1349,7 @@
 	; morn
 	wildmon 2, PIDGEY
 	wildmon 2, SENTRET
-	wildmon 3, PIDGEY
+	wildmon 5, PORYGON
 	wildmon 3, SENTRET
 	wildmon 2, RATTATA
 	wildmon 3, HOPPIP
@@ -1357,7 +1357,7 @@
 	; day
 	wildmon 2, PIDGEY
 	wildmon 2, SENTRET
-	wildmon 3, PIDGEY
+	wildmon 5, PORYGON
 	wildmon 3, SENTRET
 	wildmon 2, RATTATA
 	wildmon 3, HOPPIP
@@ -1365,7 +1365,7 @@
 	; nite
 	wildmon 2, HOOTHOOT
 	wildmon 2, RATTATA
-	wildmon 3, HOOTHOOT
+	wildmon 5, PORYGON
 	wildmon 3, RATTATA
 	wildmon 2, RATTATA
 	wildmon 3, HOOTHOOT
