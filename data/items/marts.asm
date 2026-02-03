@@ -55,9 +55,11 @@ CherrygroveMart:
 	db -1
 
 CherrygroveMartAfterDex:
-	db 6 ; # items
+	db 8 ; # items
 	db POKE_BALL
 	db HEAL_BALL
+	db MASTER_BALL
+	db RARE_CANDY
 	db POTION
 	db ANTIDOTE
 	db PARALYZEHEAL
@@ -65,9 +67,11 @@ CherrygroveMartAfterDex:
 	db -1
 
 VioletMart:
-	db 11 ; # items
+	db 13 ; # items
 	db POKE_BALL
 	db REPEAT_BALL
+	db MASTER_BALL
+	db RARE_CANDY
 	db POTION
 	db ESCAPE_ROPE
 	db ANTIDOTE
@@ -80,10 +84,12 @@ VioletMart:
 	db -1
 
 AzaleaMart:
-	db 10 ; # items
+	db 12 ; # items
 	db CHARCOAL
 	db POKE_BALL
 	db NET_BALL
+	db MASTER_BALL
+	db RARE_CANDY
 	db POTION
 	db SUPER_POTION
 	db ESCAPE_ROPE
@@ -94,7 +100,8 @@ AzaleaMart:
 	db -1
 
 Goldenrod2FMart1:
-	db 9 ; # items
+	db 10 ; # items
+	db RARE_CANDY
 	db POTION
 	db SUPER_POTION
 	db ANTIDOTE
@@ -107,12 +114,13 @@ Goldenrod2FMart1:
 	db -1
 
 Goldenrod2FMart2:
-	db 10 ; # items
+	db 11 ; # items
 	db POKE_BALL
 	db GREAT_BALL
 	db LUXURY_BALL
 	db TIMER_BALL
 	db QUICK_BALL
+	db MASTER_BALL
 	db ESCAPE_ROPE
 	db REPEL
 	db POKE_DOLL
@@ -121,12 +129,13 @@ Goldenrod2FMart2:
 	db -1
 
 Goldenrod2FMart2Eevee:
-	db 11 ; # items
+	db 12 ; # items
 	db POKE_BALL
 	db GREAT_BALL
 	db LUXURY_BALL
 	db TIMER_BALL
 	db QUICK_BALL
+	db MASTER_BALL
 	db ESCAPE_ROPE
 	db REPEL
 	db POKE_DOLL
@@ -189,10 +198,12 @@ UndergroundMart:
 	db -1
 
 EcruteakMart:
-	db 11 ; # items
+	db 13 ; # items
 	db POKE_BALL
 	db GREAT_BALL
 	db NEST_BALL
+	db MASTER_BALL
+	db RARE_CANDY
 	db POTION
 	db SUPER_POTION
 	db ANTIDOTE
@@ -204,9 +215,11 @@ EcruteakMart:
 	db -1
 
 OlivineMart:
-	db 10 ; # items
+	db 12 ; # items
 	db GREAT_BALL
 	db DIVE_BALL
+	db MASTER_BALL
+	db RARE_CANDY
 	db SUPER_POTION
 	db HYPER_POTION
 	db ANTIDOTE
@@ -218,7 +231,8 @@ OlivineMart:
 	db -1
 
 CianwoodMart:
-	db 5 ; # items
+	db 6 ; # items
+	db RARE_CANDY
 	db POTION
 	db SUPER_POTION
 	db HYPER_POTION
@@ -227,28 +241,34 @@ CianwoodMart:
 	db -1
 
 YellowForestMart:
-	db 4 ; # items
+	db 6 ; # items
 	db POKE_BALL
+	db MASTER_BALL
+	db RARE_CANDY
 	db REPEL
 	db FRESH_WATER
 	db FULL_HEAL
 	db -1
 
 MahoganyMart1:
-	db 4 ; # items
+	db 6 ; # items
 	db TINYMUSHROOM
 	db SLOWPOKETAIL
 	db GREAT_BALL
+	db MASTER_BALL
+	db RARE_CANDY
 	db SUPER_POTION
 	db -1
 
 MahoganyMart2:
-	db 10 ; # items
+	db 12 ; # items
 	db RAGECANDYBAR
 	db AIR_BALLOON
 	db QUICK_CLAW
 	db KINGS_ROCK
 	db GREAT_BALL
+	db MASTER_BALL
+	db RARE_CANDY
 	db SUPER_POTION
 	db HYPER_POTION
 	db SUPER_REPEL
@@ -257,10 +277,12 @@ MahoganyMart2:
 	db -1
 
 BlackthornMart:
-	db 11 ; # items
+	db 13 ; # items
 	db GREAT_BALL
 	db ULTRA_BALL
 	db DUSK_BALL
+	db MASTER_BALL
+	db RARE_CANDY
 	db HYPER_POTION
 	db MAX_POTION
 	db FULL_HEAL
@@ -272,8 +294,10 @@ BlackthornMart:
 	db -1
 
 IndigoPlateauMart:
-	db 8 ; # items
+	db 10 ; # items
 	db ULTRA_BALL
+	db MASTER_BALL
+	db RARE_CANDY
 	db MAX_REPEL
 	db HYPER_POTION
 	db MAX_POTION
@@ -284,9 +308,11 @@ IndigoPlateauMart:
 	db -1
 
 ViridianMart:
-	db 11 ; # items
+	db 13 ; # items
 	db ULTRA_BALL
 	db NET_BALL
+	db MASTER_BALL
+	db RARE_CANDY
 	db HYPER_POTION
 	db ANTIDOTE
 	db PARALYZEHEAL
@@ -299,9 +325,11 @@ ViridianMart:
 	db -1
 
 PewterMart:
-	db 8 ; # items
+	db 10 ; # items
 	db GREAT_BALL
 	db DUSK_BALL
+	db MASTER_BALL
+	db RARE_CANDY
 	db SUPER_POTION
 	db SUPER_REPEL
 	db ANTIDOTE
@@ -323,10 +351,12 @@ MtMoonMart:
 	db -1
 
 CeruleanMart:
-	db 10 ; # items
+	db 12 ; # items
 	db GREAT_BALL
 	db ULTRA_BALL
 	db DIVE_BALL
+	db MASTER_BALL
+	db RARE_CANDY
 	db SUPER_POTION
 	db SUPER_REPEL
 	db FULL_HEAL
@@ -337,9 +367,11 @@ CeruleanMart:
 	db -1
 
 LavenderMart:
-	db 9 ; # items
+	db 11 ; # items
 	db GREAT_BALL
 	db HEAL_BALL
+	db MASTER_BALL
+	db RARE_CANDY
 	db POTION
 	db SUPER_POTION
 	db MAX_REPEL
@@ -350,9 +382,11 @@ LavenderMart:
 	db -1
 
 VermilionMart:
-	db 9 ; # items
+	db 11 ; # items
 	db ULTRA_BALL
 	db REPEAT_BALL
+	db MASTER_BALL
+	db RARE_CANDY
 	db SUPER_POTION
 	db HYPER_POTION
 	db REVIVE
@@ -363,7 +397,8 @@ VermilionMart:
 	db -1
 
 Celadon2FMart1:
-	db 12 ; # items
+	db 13 ; # items
+	db RARE_CANDY
 	db POTION
 	db SUPER_POTION
 	db HYPER_POTION
@@ -379,12 +414,13 @@ Celadon2FMart1:
 	db -1
 
 Celadon2FMart2:
-	db 9 ; # items
+	db 10 ; # items
 	db POKE_BALL
 	db GREAT_BALL
 	db ULTRA_BALL
 	db QUICK_BALL
 	db TIMER_BALL
+	db MASTER_BALL
 	db ESCAPE_ROPE
 	db REPEL
 	db SUPER_REPEL
@@ -418,10 +454,12 @@ Celadon4FMart:
 	db -1
 
 SaffronMart:
-	db 9 ; # items
+	db 11 ; # items
 	db GREAT_BALL
 	db ULTRA_BALL
 	db LUXURY_BALL
+	db MASTER_BALL
+	db RARE_CANDY
 	db HYPER_POTION
 	db MAX_POTION
 	db FULL_HEAL
@@ -440,10 +478,12 @@ SilphCoMart:
 	db -1
 
 FuchsiaMart:
-	db 8 ; # items
+	db 10 ; # items
 	db GREAT_BALL
 	db ULTRA_BALL
 	db NEST_BALL
+	db MASTER_BALL
+	db RARE_CANDY
 	db SUPER_POTION
 	db HYPER_POTION
 	db FULL_HEAL
